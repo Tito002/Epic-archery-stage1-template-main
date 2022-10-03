@@ -20,7 +20,7 @@ function setup() {
  // player = new ( 340, playerBase.position.y - 112, 120, 120);
  //player = new Player(285, playerBase.body.position.y - 153, 50, 180);
  // player =  Player( 340, playerBase.position.y - 112, 120, 120);
- // player= new Player( )
+  player= new Player( )
 
   computerBase = new ComputerBase(
     width - 300,
@@ -55,7 +55,8 @@ function draw() {
   //display();
   //playerdisplay();
   //player();
-  //player.display();
+  
+  player.display();
   
 
   computerBase.display();
